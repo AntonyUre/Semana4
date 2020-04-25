@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    height: 2632px;
+}
+.landing{
+    height: 525px;
+    background-image: url(/img/landing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.t1{
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+}
+.c-la{
+    width: 960px;
+}
+.c-la p{
+    position: absolute;
+    top: 400px;
+    left: 27%;
+    padding: 10px 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    background-color: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+}
+/* width: 361px;
+height: 97px; */
+/* Seccion Sobremi */
+.sobremi{
+    height: 424px;
+    background-color: #7299FE;
+}
+.c-sm{
+    width: 960px;
+    height: 424px;;
+}
+.sobremi .t2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 36px 0 0 0;
+}
+.r1{
+    width: 872px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #f8f8f8;
+    padding: 30px 0 0 0 ;
+}
+.bt{
+    text-decoration: none;
+    padding: 18px 55px;
+    position: absolute;
+    top: 830px;
+    left: 27%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background: #D16FFF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bt:hover{
+    background-color: #57EFF9;
+    color: #9122FF;
+    transition: all 0.5s ease-in-out;
+}
+/* Seccion Skills */
+.bs{
+    background: #9122FF;
+}
+.skills{
+    width: 960px;
+    height: 424px;
+    color: white;                 
+}
+.t3{
+    padding-top:31px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    grid-column: span 2;
+}
+.l-sk{
+    margin-top: 33px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 31px;
+    grid-row-gap: 30px;
+}
+.skills li{
+    width: 100%;
+    list-style: none;
+}
+.skills li p{
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.bar{
+    background: #fff;
+    display: block;
+    height: 21px;
+    border: none;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #57EFF9;
+}
+.bar span{
+    height: 21px;
+    float: left;
+    background: #57EFF9;
+    border-radius: 20px;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 80%;
+}
+.javascript{
+    width: 90%;
+}
+.vue{
+    width: 90%;
+}
+.flexbox{
+    width: 80%;
+}
+.wordpress{
+    width: 90%;
+}
+/* Seccion Portafolio */
+.bp{
+    background: #FFD233;
+}
+.portafolio{
+    text-align: center;
+    width: 605px;
+    height: 424px;
+}
+.t4{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 42px 0;
+}   
+.imga{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:1em;
+}
+.imgb{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:1em;    
+}
+.portafolio img{
+    width: 140px;
+}
+/* Seccion Clientes */
+.bc{
+    background: #3F4E62;
+}
+.clientes{
+    width: 850px;
+    height: 258px;
+}
+.c-cl{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.t5{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 36px 0 15px 0;
+}
+.clientes img{
+    width: 200px;
+}
+/* Seccion Contacto */
+.bco{
+    background: #1687A0;
+}
+.contacto{
+    width: 800px;
+}
+.contacto p{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 37px;
+}
+.form{
+    margin-top:27px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap:2em;
+}
+.name{
+    padding: 20px 10px;
+    width: 368px;
+}
+.addres{
+    padding: 20px 10px;
+    width: 368px;
+}
+.email{
+    padding: 20px 10px;
+    width: 368px;
+}
+.tel{
+    padding: 20px 10px;
+    width: 368px;
+}
+.message{
+    width: 100%;
+    grid-column: span 2;
+    padding: 20px 10px;
+}
+.button{
+    width: 167px;
+    height: 56px;
+    text-align: center;
+    grid-column: span 2;
+    font-size: 18px;
+    color: #fff;
+    background: #233451;
+    border: none;
+    margin-bottom: 76px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #57EFF9;
+    transition: all 0.5s ease-in-out;
+    box-shadow:0 0 5px #57EFF9;
+    color: #233451;
+    width: 177px;
+    height: 66px;
+}
