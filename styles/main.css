@@ -10,7 +10,7 @@ body{
 }
 .landing{
     height: 525px;
-    background-image: url(img/landing.png);
+    background-image: url(../img/landing.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,7 +26,8 @@ body{
 .c-la p{
     position: absolute;
     top: 400px;
-    left: 27%;
+    left: 50%;
+    margin-left: -425px;
     padding: 10px 45px;
     text-align: center;
     color: #fff;
@@ -35,8 +36,6 @@ body{
     background-color: rgba(114, 153, 254, 0.5);
     border-radius: 10px;
 }
-/* width: 361px;
-height: 97px; */
 /* Seccion Sobremi */
 .sobremi{
     height: 424px;
@@ -66,7 +65,8 @@ height: 97px; */
     padding: 18px 55px;
     position: absolute;
     top: 830px;
-    left: 27%;
+    left: 50%;
+    margin-left: -440px;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
