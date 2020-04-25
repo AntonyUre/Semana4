@@ -10,7 +10,7 @@ body{
 }
 .landing{
     height: 525px;
-    background-image: url(/img/landing.png);
+    background-image: url(img/landing.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
